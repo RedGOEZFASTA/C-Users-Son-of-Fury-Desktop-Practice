@@ -1,0 +1,31 @@
+/* */
+.content{
+	position: relative;
+	height: 200px;
+	margin: 20px;
+}
+.quote{
+	padding: 20px 40px;
+	position: relative;
+}
+.quote:before, .quote:after {
+	font-size: 3em;
+	color: #800;
+	position: absolute;
+} 
+.quote:before {
+	content: '«';
+	top:0;
+	left:0;
+}
+.quote:after {
+	content: '»';
+	right:0;
+	bottom:0;
+}
+.quote--text{
+
+}
+.quote--author{
+	margin-top:20px;
+}
