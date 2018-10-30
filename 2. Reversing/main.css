@@ -1,0 +1,15 @@
+/* */
+.content{
+	position: relative;
+	height: 100px;
+	font: 60px Impact, sans-serif; 
+    color: #fff; 
+}
+.content--pepper{
+	background: #ED1C24;
+}
+.title{
+	position: absolute;
+	bottom: -13px;
+	left: 30px;
+}
