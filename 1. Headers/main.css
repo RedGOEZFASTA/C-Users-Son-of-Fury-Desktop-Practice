@@ -1,0 +1,15 @@
+/* Здесь все просто  можно посмотреть на еденицы изменения размера em, rem*/
+body {
+	background-color: #DEDECA;
+}
+h1 { 
+	font-family: Arial; 
+	font-size: 1.8em; 
+	color: #630; 
+}
+h3 { 
+	color: #963;
+}
+.link { 
+	color: #360;
+}
