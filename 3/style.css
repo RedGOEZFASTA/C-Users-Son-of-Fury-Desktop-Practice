@@ -1,17 +1,27 @@
+<<<<<<< HEAD
 .card:before { 
+=======
+p{
+    margin:0;
+}
+.c:before { 
+>>>>>>> 00e422d3cae0354da565017114a4a9862213bd9e
     margin-right: 10px; 
 }
-   .spades:before { 
-       content: '\2660'; 
-    }
-   .clubs:before { 
-       content: '\2663'; 
-    }
-   .diamonds:before {
-    content: '\2666';
-    color: red;
-   }
-   .hearts:before {
-    content: '\2665';
-    color: red;
-   }
+.spades:before { 
+    content: '\2660'; 
+ }
+.clubs:before { 
+    content: '\2663'; 
+ }
+.diamonds:before {
+ content: '\2666';
+ color: red;
+}
+.hearts:before {
+ content: '\2665';
+ color: red;
+}
+.card span{
+    padding-left: 7px;
+}
