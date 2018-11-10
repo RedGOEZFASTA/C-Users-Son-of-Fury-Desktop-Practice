@@ -1,8 +1,8 @@
-input {
+input [type="number"] {
     margin-right: -3px;
 }
 
-input:Valid + span::after {
+input:Valid + span:after {
   content: url(images.jpg);
   padding-left: 5px;
 
